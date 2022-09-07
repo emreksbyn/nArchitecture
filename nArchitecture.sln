@@ -37,15 +37,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAPI", "src\demoProjects\
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "rentACar", "rentACar", "{40A67EA5-8043-4432-9311-633159F1B938}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RentACar.Application", "src\demoProjects\rentACar\RentACar.Application\RentACar.Application.csproj", "{E1838AB0-0D22-48D3-B2EE-FDD85EF734C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RentACar.Application", "src\demoProjects\rentACar\RentACar.Application\RentACar.Application.csproj", "{E1838AB0-0D22-48D3-B2EE-FDD85EF734C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RentACar.Domain", "src\demoProjects\rentACar\RentACar.Domain\RentACar.Domain.csproj", "{6CD17521-777D-40D7-A9D8-0151E4A28A69}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RentACar.Domain", "src\demoProjects\rentACar\RentACar.Domain\RentACar.Domain.csproj", "{6CD17521-777D-40D7-A9D8-0151E4A28A69}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RentACar.Infrastructure", "src\demoProjects\rentACar\RentACar.Infrastructure\RentACar.Infrastructure.csproj", "{2AA631B3-A012-4F0B-BA3D-5DAF904011FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RentACar.Infrastructure", "src\demoProjects\rentACar\RentACar.Infrastructure\RentACar.Infrastructure.csproj", "{2AA631B3-A012-4F0B-BA3D-5DAF904011FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RentACar.Persistence", "src\demoProjects\rentACar\RentACar.Persistence\RentACar.Persistence.csproj", "{52C9F71D-9970-4D09-BBEA-0F6A777FC408}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RentACar.Persistence", "src\demoProjects\rentACar\RentACar.Persistence\RentACar.Persistence.csproj", "{52C9F71D-9970-4D09-BBEA-0F6A777FC408}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RentACar.WebAPI", "src\demoProjects\rentACar\RentACar.WebAPI\RentACar.WebAPI.csproj", "{D8A56D88-1E6C-499B-B8CD-DFA1A5997C20}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RentACar.WebAPI", "src\demoProjects\rentACar\RentACar.WebAPI\RentACar.WebAPI.csproj", "{ECE221CF-A22B-4657-A0BB-5F123B7AD9FB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -113,10 +113,10 @@ Global
 		{52C9F71D-9970-4D09-BBEA-0F6A777FC408}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{52C9F71D-9970-4D09-BBEA-0F6A777FC408}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{52C9F71D-9970-4D09-BBEA-0F6A777FC408}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D8A56D88-1E6C-499B-B8CD-DFA1A5997C20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D8A56D88-1E6C-499B-B8CD-DFA1A5997C20}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D8A56D88-1E6C-499B-B8CD-DFA1A5997C20}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D8A56D88-1E6C-499B-B8CD-DFA1A5997C20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECE221CF-A22B-4657-A0BB-5F123B7AD9FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECE221CF-A22B-4657-A0BB-5F123B7AD9FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECE221CF-A22B-4657-A0BB-5F123B7AD9FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECE221CF-A22B-4657-A0BB-5F123B7AD9FB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -141,7 +141,7 @@ Global
 		{6CD17521-777D-40D7-A9D8-0151E4A28A69} = {40A67EA5-8043-4432-9311-633159F1B938}
 		{2AA631B3-A012-4F0B-BA3D-5DAF904011FC} = {40A67EA5-8043-4432-9311-633159F1B938}
 		{52C9F71D-9970-4D09-BBEA-0F6A777FC408} = {40A67EA5-8043-4432-9311-633159F1B938}
-		{D8A56D88-1E6C-499B-B8CD-DFA1A5997C20} = {40A67EA5-8043-4432-9311-633159F1B938}
+		{ECE221CF-A22B-4657-A0BB-5F123B7AD9FB} = {40A67EA5-8043-4432-9311-633159F1B938}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C127633B-AB1B-43AE-A516-DCF06F13F757}
