@@ -25,7 +25,6 @@ namespace RentACar.Application
             services.AddTransient(typeof(IPipelineBehavior<,>), typeof(RequestValidationBehavior<,>));
 
             return services;
-
         }
     }
 }
