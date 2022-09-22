@@ -5,9 +5,9 @@ using RentACar.Persistence.Contexts;
 
 namespace RentACar.Persistence.Repositories
 {
-    public class BrandRepository : EfRepositoryBase<Brand, BaseDbContext>, IBrandRepository
+    public class ModelRepository : EfRepositoryBase<Model, BaseDbContext>, IModelRepository
     {
-        public BrandRepository(BaseDbContext context) : base(context)
+        public ModelRepository(BaseDbContext context) : base(context)
         {
         }
     }
