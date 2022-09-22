@@ -11,7 +11,7 @@ using RentACar.Persistence.Contexts;
 namespace RentACar.Persistence.Migrations
 {
     [DbContext(typeof(BaseDbContext))]
-    [Migration("20220907125920_init1")]
+    [Migration("20220922112404_init1")]
     partial class init1
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
